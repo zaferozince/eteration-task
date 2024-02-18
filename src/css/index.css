@@ -1,0 +1,72 @@
+.card{
+    font-size: 14px !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    line-height: 16px !important;
+}
+.cart-product-price-span{
+    color: blue;
+    font-size: 12px !important;
+}
+.product-img{
+    width: 90% !important;
+    justify-self: center;
+    margin-top: 10px;
+}
+.product-detail-img{
+    width: 90% !important;
+}
+.cursor {
+    cursor: pointer;
+}
+.product-img:hover {
+    animation: increaseSize 0.3s forwards;
+  }
+@keyframes increaseSize {
+    from {
+    transform: scale(1);
+    }
+    to {
+    transform: scale(1.1);
+    }
+}
+.pagination li{
+    cursor: pointer;
+    margin: 0 5px;
+}
+.pagination li:active{
+    color: white;
+}
+.pagination li.active{
+    color: blue;
+}
+.add-to-cart-btn{
+    width: 100%;
+}
+.sort-div{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.light-span{
+    margin: 0 !important;
+    margin-left: 10px !important;
+    font-size: 16px;
+    color: gray;
+}
+.scroll-card{
+    overflow-y: scroll;
+    height: 250px !important;
+}
+.total-price-text{
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: blue !important;
+}
+.price-text{
+    color: blue !important;
+}
+.cart-empty-span{
+    color:red !important;
+}
